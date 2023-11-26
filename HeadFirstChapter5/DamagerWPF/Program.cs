@@ -1,69 +1,110 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Diagnostics.Eventing.Reader;
+using System.Security.Cryptography;
 
 namespace DamagerWPF
 {
-    //internal class Program
-    //{
-    //    static void Main(string[] args)
-    //    {
-    //        Random random = new Random();
-    //        SwordDamage swordDamage = new SwordDamage();
-    //        while (true)
-    //        {
-    //            Console.WriteLine("0 fo no Magic/flaming, 1 for maigc, 2 for flaming, " +
-    //                "3 fo both, anything else to quit: ");
-    //            char key = Console.ReadKey().KeyChar;
-    //            if (key != '0' && key != '1' && key != '2' && key != '3') return;
+    internal class Program
+    {
+        static Random random = new Random();
 
-    //            int roll = random.Next(1, 7) + random.Next(1, 7) + random.Next(1, 7);
-    //            swordDamage.Roll = roll;
-    //            swordDamage.SetMagic(key == '1' || key == '3');
-    //            swordDamage.SetFlaming(key == '2' || key == '3');
+        //static void Main(string[] args)
+        //{
+        //    SwordDamage swordDamage = new SwordDamage(RollDice());
 
-    //            Console.WriteLine("\nRolled " + roll + " for " + swordDamage.Damage + " HP\n");
-    //        }
-    //    }
-    //}
+        //    while (true)
+        //    {
+        //        Console.WriteLine("0 fo no magic/flaming, 1 for magic, 2 for flaming, " +
+        //            "3 for both, anything else to quit: ");
+        //        char key = Console.ReadKey().KeyChar;
+        //        if (key != '0' && key != '1' && key != '2' && key != '3') return;
+        //        swordDamage.Roll = RollDice();
+        //        swordDamage.Magic = (key == '1' || key == '3');
+        //        swordDamage.Flaming = (key == '2' || key == '3');
+        //        Console.WriteLine($"\nRolled {swordDamage.Roll} for {swordDamage.Damage} HP\n");
+        //    }
+        //}
+
+        private static int RollDice()
+        {
+            return random.Next(1, 7) + random.Next(1, 7) + random.Next(1, 7);
+        }
+    }
 
     class SwordDamage
     {
         public const int BASE_DAMAGE = 3;
         public const int FLAME_DAMAGE = 2;
+        private int roll;
+        private bool magic;
+        private bool flaming;
 
-        public int Roll;
-        private decimal magicMultiplier = 1M;
-        private int flamingDamage = 0;
-        public int Damage;
+        public int Damage { get; private set; }
 
+        /// <summary>
+        /// Конструктор, который бросает кубик и вычисляет повреждения при всех значениях
+        /// </summary>
+        /// <param name="startingRoll"></param>
+        public SwordDamage(int startingRoll)
+        {
+            roll = startingRoll;
+            CalculateDamage();
+        }
+
+        /// <summary>
+        /// Sets or gets 3d6 roll
+        /// </summary>
+        public int Roll
+        {
+            get { return roll; }
+            set
+            {
+                roll = value;
+                CalculateDamage();
+            }
+        }
+
+        /// <summary>
+        /// Волшебный меч - true, Не волшебный - false
+        /// </summary>
+        /// 
+        public bool Magic
+        {
+            get { return magic; }
+            set
+            {
+                magic = value;
+                CalculateDamage();
+            }
+        }
+
+        /// <summary>
+        /// Меч в огне - true, Не в огне - false
+        /// </summary>
+        /// 
+        public bool Flaming
+        {
+            get { return flaming; }
+            set
+            {
+                flaming = value;
+                CalculateDamage();
+            }
+        }
+
+        /// <summary>
+        /// Вычисляет повреждения в зависимости от заданных параметров и броска кубика
+        /// </summary>
         public void CalculateDamage()
         {
-            Damage = (int)(Roll * magicMultiplier) + BASE_DAMAGE + flamingDamage;
-            Debug.WriteLine($"CalculateDamage finished: {Damage} (roll: {Roll})");
+            decimal magicMultiplier = 1M;
+            if (Magic) magicMultiplier = 1.75M;
+
+            Damage = BASE_DAMAGE;
+            Damage = (int)(Roll * magicMultiplier) + BASE_DAMAGE;
+            if (Flaming) Damage += FLAME_DAMAGE;
         }
 
-        public void SetMagic(bool isMagic)
-        {
-            if (isMagic)
-            {
-                magicMultiplier = 1.75M;
-            }
-            else
-            {
-                magicMultiplier = 1M;
-            }
-            CalculateDamage();
-            Debug.WriteLine($"SetMagic finished: {Damage} (roll: {Roll})");
-        }
-
-        public void SetFlaming(bool isFlaming)
-        {
-            CalculateDamage();
-            if (isFlaming)
-            {
-                Damage += FLAME_DAMAGE;
-            }
-            Debug.WriteLine($"SetFlamig finished: {Damage} (roll: {Roll})");
-        }
     }
 }
