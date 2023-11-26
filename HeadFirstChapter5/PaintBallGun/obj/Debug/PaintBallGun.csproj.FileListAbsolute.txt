@@ -1,0 +1,8 @@
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter5\PaintBallGun\bin\Debug\PaintBallGun.exe.config
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter5\PaintBallGun\bin\Debug\PaintBallGun.exe
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter5\PaintBallGun\bin\Debug\PaintBallGun.pdb
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter5\PaintBallGun\obj\Debug\PaintBallGun.csproj.AssemblyReference.cache
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter5\PaintBallGun\obj\Debug\PaintBallGun.csproj.SuggestedBindingRedirects.cache
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter5\PaintBallGun\obj\Debug\PaintBallGun.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter5\PaintBallGun\obj\Debug\PaintBallGun.exe
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter5\PaintBallGun\obj\Debug\PaintBallGun.pdb

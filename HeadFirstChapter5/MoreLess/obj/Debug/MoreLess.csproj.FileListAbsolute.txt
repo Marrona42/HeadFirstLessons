@@ -1,0 +1,8 @@
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter5\MoreLess\bin\Debug\MoreLess.exe.config
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter5\MoreLess\bin\Debug\MoreLess.exe
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter5\MoreLess\bin\Debug\MoreLess.pdb
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter5\MoreLess\obj\Debug\MoreLess.csproj.AssemblyReference.cache
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter5\MoreLess\obj\Debug\MoreLess.csproj.SuggestedBindingRedirects.cache
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter5\MoreLess\obj\Debug\MoreLess.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter5\MoreLess\obj\Debug\MoreLess.exe
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter5\MoreLess\obj\Debug\MoreLess.pdb

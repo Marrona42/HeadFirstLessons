@@ -1,0 +1,8 @@
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter3\GuysAndCash\bin\Debug\GuysAndCash.exe.config
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter3\GuysAndCash\bin\Debug\GuysAndCash.exe
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter3\GuysAndCash\bin\Debug\GuysAndCash.pdb
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter3\GuysAndCash\obj\Debug\GuysAndCash.csproj.AssemblyReference.cache
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter3\GuysAndCash\obj\Debug\GuysAndCash.csproj.SuggestedBindingRedirects.cache
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter3\GuysAndCash\obj\Debug\GuysAndCash.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter3\GuysAndCash\obj\Debug\GuysAndCash.exe
+C:\Users\Александр\Desktop\SharpProjects\HeadFirstChapter3\GuysAndCash\obj\Debug\GuysAndCash.pdb

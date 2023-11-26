@@ -1,0 +1,7 @@
+C:\Users\Александр\OneDrive\Рабочий стол\cSharp\Damager\bin\Debug\Damager.exe.config
+C:\Users\Александр\OneDrive\Рабочий стол\cSharp\Damager\bin\Debug\Damager.exe
+C:\Users\Александр\OneDrive\Рабочий стол\cSharp\Damager\bin\Debug\Damager.pdb
+C:\Users\Александр\OneDrive\Рабочий стол\cSharp\Damager\obj\Debug\Damager.csproj.AssemblyReference.cache
+C:\Users\Александр\OneDrive\Рабочий стол\cSharp\Damager\obj\Debug\Damager.csproj.CoreCompileInputs.cache
+C:\Users\Александр\OneDrive\Рабочий стол\cSharp\Damager\obj\Debug\Damager.exe
+C:\Users\Александр\OneDrive\Рабочий стол\cSharp\Damager\obj\Debug\Damager.pdb
