@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DamageCalculator", "DamageCalculator.csproj", "{C9ADBE87-8459-4328-A423-22B4C3776BB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9ADBE87-8459-4328-A423-22B4C3776BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9ADBE87-8459-4328-A423-22B4C3776BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9ADBE87-8459-4328-A423-22B4C3776BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9ADBE87-8459-4328-A423-22B4C3776BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5CB2B21-8842-46A8-8684-23F4C1A4B71E}
+	EndGlobalSection
+EndGlobal
