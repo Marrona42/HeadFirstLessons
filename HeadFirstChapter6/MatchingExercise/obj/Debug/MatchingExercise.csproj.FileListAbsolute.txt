@@ -1,0 +1,8 @@
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\MatchingExercise\bin\Debug\MatchingExercise.exe.config
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\MatchingExercise\bin\Debug\MatchingExercise.exe
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\MatchingExercise\bin\Debug\MatchingExercise.pdb
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\MatchingExercise\obj\Debug\MatchingExercise.csproj.AssemblyReference.cache
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\MatchingExercise\obj\Debug\MatchingExercise.csproj.SuggestedBindingRedirects.cache
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\MatchingExercise\obj\Debug\MatchingExercise.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\MatchingExercise\obj\Debug\MatchingExercise.exe
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\MatchingExercise\obj\Debug\MatchingExercise.pdb
