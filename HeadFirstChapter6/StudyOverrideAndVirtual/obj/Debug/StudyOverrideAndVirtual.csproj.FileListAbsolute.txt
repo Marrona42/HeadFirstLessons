@@ -1,0 +1,8 @@
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\StudyOverrideAndVirtual\bin\Debug\StudyOverrideAndVirtual.exe.config
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\StudyOverrideAndVirtual\bin\Debug\StudyOverrideAndVirtual.exe
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\StudyOverrideAndVirtual\bin\Debug\StudyOverrideAndVirtual.pdb
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\StudyOverrideAndVirtual\obj\Debug\StudyOverrideAndVirtual.csproj.AssemblyReference.cache
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\StudyOverrideAndVirtual\obj\Debug\StudyOverrideAndVirtual.csproj.SuggestedBindingRedirects.cache
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\StudyOverrideAndVirtual\obj\Debug\StudyOverrideAndVirtual.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\StudyOverrideAndVirtual\obj\Debug\StudyOverrideAndVirtual.exe
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\StudyOverrideAndVirtual\obj\Debug\StudyOverrideAndVirtual.pdb
