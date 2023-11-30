@@ -1,0 +1,8 @@
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\LearnInheritanceBrid\bin\Debug\LearnInheritanceBrid.exe.config
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\LearnInheritanceBrid\bin\Debug\LearnInheritanceBrid.exe
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\LearnInheritanceBrid\bin\Debug\LearnInheritanceBrid.pdb
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\LearnInheritanceBrid\obj\Debug\LearnInheritanceBrid.csproj.AssemblyReference.cache
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\LearnInheritanceBrid\obj\Debug\LearnInheritanceBrid.csproj.SuggestedBindingRedirects.cache
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\LearnInheritanceBrid\obj\Debug\LearnInheritanceBrid.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\LearnInheritanceBrid\obj\Debug\LearnInheritanceBrid.exe
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\LearnInheritanceBrid\obj\Debug\LearnInheritanceBrid.pdb
