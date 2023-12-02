@@ -9,10 +9,12 @@ namespace LearnInheritanceBrid
             while (true)
             {
                 Bird bird;
-                Console.Write("\nPress P for pigeon, O for ostrich: ");
+                Console.Write("\nPress P for pigeon, O for ostrich, M for Penguin, R for Royal Penguin: ");
                 char key = Char.ToUpper(Console.ReadKey().KeyChar);
                 if (key == 'P') bird = new Pigeon();
                 else if (key == 'O') bird = new Ostrich();
+                else if (key == 'M') bird = new Penguin();
+                else if (key == 'R') bird = new RoyalPenguin();
                 else return;
 
                 Console.WriteLine("\nHow many eggs should if lay? ");
@@ -44,6 +46,14 @@ namespace LearnInheritanceBrid
         }
     }
 
+    class BrokenEgg : Egg
+    {
+        public BrokenEgg(string color) : base(0, $"broken{color}")
+        {
+            Console.WriteLine("A bird laid a broken egg");
+        }
+    }
+
     class Bird
     {
         public static Random Randomizer = new Random();
@@ -60,7 +70,14 @@ namespace LearnInheritanceBrid
             Egg[] eggs = new Egg[numberOfEggs];
             for (int i = 0; i < numberOfEggs; i++)
             {
-                eggs[i] = new Egg(Bird.Randomizer.NextDouble() * 2 + 1, "white");
+                if (Bird.Randomizer.Next(4) == 0)
+                {
+                    eggs[i] = new BrokenEgg(" red");
+                }
+                else
+                {
+                    eggs[i] = new Egg(Bird.Randomizer.NextDouble() * 2 + 1, "white");
+                }
             }
             return eggs;
         }
@@ -74,6 +91,46 @@ namespace LearnInheritanceBrid
             for (int i = 0; i < numberOfEggs; i++)
             {
                 eggs[i] = new Egg(Bird.Randomizer.NextDouble() + 12, "speckled");
+            }
+            return eggs;
+        }
+    }
+
+    class Penguin : Bird
+    {
+        public override Egg[] LayEggs(int numberOfEggs)
+        {
+            Egg[] eggs = new Egg[numberOfEggs];
+            for (int i = 0; i < numberOfEggs; i++)
+            {
+                if (Bird.Randomizer.Next(9) == 0)
+                {
+                    eggs[i] = new BrokenEgg(" red");
+                }
+                else
+                {
+                    eggs[i] = new Egg(Bird.Randomizer.NextDouble() * 2 + 1, "black");
+                }
+            }
+            return eggs;
+        }
+    }
+
+    class RoyalPenguin : Penguin
+    {
+        public override Egg[] LayEggs(int numberOfEggs)
+        {
+            Egg[] eggs = new Egg[numberOfEggs];
+            for (int i = 0; i < numberOfEggs; i++)
+            {
+                if (Bird.Randomizer.Next(3) == 0)
+                {
+                    eggs[i] = new BrokenEgg(" red");
+                }
+                else
+                {
+                    eggs[i] = new Egg(Bird.Randomizer.NextDouble() * 2 + 1, "blue");
+                }
             }
             return eggs;
         }
