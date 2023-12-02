@@ -1,0 +1,8 @@
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\WeaponsRoll\bin\Debug\WeaponsRoll.exe.config
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\WeaponsRoll\bin\Debug\WeaponsRoll.exe
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\WeaponsRoll\bin\Debug\WeaponsRoll.pdb
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\WeaponsRoll\obj\Debug\WeaponsRoll.csproj.AssemblyReference.cache
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\WeaponsRoll\obj\Debug\WeaponsRoll.csproj.SuggestedBindingRedirects.cache
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\WeaponsRoll\obj\Debug\WeaponsRoll.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\WeaponsRoll\obj\Debug\WeaponsRoll.exe
+C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\WeaponsRoll\obj\Debug\WeaponsRoll.pdb
