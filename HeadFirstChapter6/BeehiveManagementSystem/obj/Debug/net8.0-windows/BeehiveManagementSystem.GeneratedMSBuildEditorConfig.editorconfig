@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BeehiveManagementSystem
-build_property.ProjectDir = C:\Users\Александр\OneDrive\Рабочий стол\cSharp\BeehiveManagementSystem\
+build_property.ProjectDir = C:\Users\Александр\Desktop\GitHubRepository\HeadFirstLessons\HeadFirstChapter6\BeehiveManagementSystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

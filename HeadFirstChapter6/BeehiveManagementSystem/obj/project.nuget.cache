@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lYY1eHdHcaQt+udhtg/vm4N+AzDvCXwZWYUmOWrGbTlmilHm/ZR/ezjhu5dRsel5/mQp40233m+iLKCTO8sKRA==",
+  "dgSpecHash": "H6I0VtEhQpL4TU6MFdMniFAnb21vljvjSq6W2af6Z4A6mPN7jk24xONbPID1JTrZ2A9pQYJfLtjUDbgSrB486w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Александр\\OneDrive\\Рабочий стол\\cSharp\\BeehiveManagementSystem\\BeehiveManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\Александр\\Desktop\\GitHubRepository\\HeadFirstLessons\\HeadFirstChapter6\\BeehiveManagementSystem\\BeehiveManagementSystem.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

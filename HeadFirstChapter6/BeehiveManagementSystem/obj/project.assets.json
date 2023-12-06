@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Александр\\OneDrive\\Рабочий стол\\cSharp\\BeehiveManagementSystem\\BeehiveManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Александр\\Desktop\\GitHubRepository\\HeadFirstLessons\\HeadFirstChapter6\\BeehiveManagementSystem\\BeehiveManagementSystem.csproj",
       "projectName": "BeehiveManagementSystem",
-      "projectPath": "C:\\Users\\Александр\\OneDrive\\Рабочий стол\\cSharp\\BeehiveManagementSystem\\BeehiveManagementSystem.csproj",
+      "projectPath": "C:\\Users\\Александр\\Desktop\\GitHubRepository\\HeadFirstLessons\\HeadFirstChapter6\\BeehiveManagementSystem\\BeehiveManagementSystem.csproj",
       "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Александр\\OneDrive\\Рабочий стол\\cSharp\\BeehiveManagementSystem\\obj\\",
+      "outputPath": "C:\\Users\\Александр\\Desktop\\GitHubRepository\\HeadFirstLessons\\HeadFirstChapter6\\BeehiveManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
