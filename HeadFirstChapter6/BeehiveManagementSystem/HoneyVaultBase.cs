@@ -18,7 +18,7 @@ namespace BeehiveManagementSystem
             honey += nectarToConvert * NECTAR_CONVERSION_RATION;
         }
 
-        private static bool ConsumeHoney(float amount)
+        public static bool ConsumeHoney(float amount)
         {
             if (amount <= honey)
             {
@@ -31,16 +31,16 @@ namespace BeehiveManagementSystem
             }
         }
 
-        private static void CollectNectar(float amount)
+        public static void CollectNectar(float amount)
         {
             if (amount > 0) nectar += amount;
         }
 
-        private static string StatusReport
+        public static string StatusReport
         {
             get
             {
-                string status = $"{honey:0.0} units of homey\n" +
+                string status = $"{honey:0.0} units of honey\n" +
                     $"{nectar:0.0} units of nectar";
                 string warnings = "";
                 if (honey < LOW_LEVEL_WARNING) warnings +=

@@ -3,21 +3,21 @@
   <Class Name="BeehiveManagementSystem.Bee" Collapsed="true">
     <Position X="11.5" Y="4.25" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAUAAACAAAAAAAAAgAAAAA=</HashCode>
       <FileName>Bee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BeehiveManagementSystem.EggCare" Collapsed="true">
-    <Position X="14.5" Y="6" Width="2" />
+    <Position X="15.25" Y="6" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>EggCare.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BeehiveManagementSystem.HoneyManufactured" Collapsed="true">
     <Position X="10.5" Y="6" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAEAAAAAAA=</HashCode>
       <FileName>HoneyManufactured.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -29,23 +29,23 @@
     </TypeIdentifier>
   </Class>
   <Class Name="BeehiveManagementSystem.NectarCollector" Collapsed="true">
-    <Position X="12.5" Y="6" Width="2" />
+    <Position X="13" Y="6" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAEAAAAAAA=</HashCode>
       <FileName>NectarCollector.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BeehiveManagementSystem.Queen" Collapsed="true">
-    <Position X="8.5" Y="6" Width="2" />
+    <Position X="8" Y="6" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>EAAAQAAAACAAIAAACAAABAAUAAAAACgAAAAAQASAAAA=</HashCode>
       <FileName>Queen.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BeehiveManagementSystem.MainWindow" Collapsed="true">
-    <Position X="15.25" Y="3.25" Width="2.75" />
+    <Position X="4.75" Y="3.25" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAIAAAIAAAAACAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MainWindow.xaml.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
